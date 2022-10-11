@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\arrow.png" />
     <None Remove="Images\background_home.png" />
     <None Remove="Images\background_login.png" />
     <None Remove="Images\background_login1.png" />
@@ -15,6 +16,7 @@
     <None Remove="Images\close_208px.png" />
     <None Remove="Images\customer.png" />
     <None Remove="Images\employee.png" />
+    <None Remove="Images\info_app.png" />
     <None Remove="Images\logo.png" />
     <None Remove="Images\manager.png" />
     <None Remove="Images\order.png" />
@@ -28,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
   </ItemGroup>
 
@@ -37,6 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\arrow.png" />
     <Resource Include="Images\background_home.png" />
     <Resource Include="Images\background_login.png" />
     <Resource Include="Images\background_login1.png" />
@@ -44,6 +48,7 @@
     <Resource Include="Images\close_208px.png" />
     <Resource Include="Images\customer.png" />
     <Resource Include="Images\employee.png" />
+    <Resource Include="Images\info_app.png" />
     <Resource Include="Images\logo.png" />
     <Resource Include="Images\manager.png" />
     <Resource Include="Images\order.png" />

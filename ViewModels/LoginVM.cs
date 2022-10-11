@@ -100,10 +100,10 @@ namespace ViewModels
                 });
 
             MouseDownCommands = new RelayCommands<Window>(
-            p =>
-            {
-                p.DragMove();
-            });
+                p =>
+                {
+                    p.DragMove();
+                });
         }
 
         private void Login()
